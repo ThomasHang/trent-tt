@@ -14,31 +14,32 @@ inject:
     - <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.min.css" media="all" />
 
 logo:
-  icon: /assets/icon.svg
+  icon: /assets/icon.jpg
   title: Trent
-  subtitle: '每个人的独立博客 | Designed by xaoxuu'
+  subtitle: "每个人的独立博客 | Designed by xaoxuu"
 menubar:
-  items: 
+  items:
     - id: post
-      theme: '#1BCDFC'
+      theme: "#1BCDFC"
       # icon: solar:documents-bold-duotone
       title: blog
       url: /
-    - id: topic
-      theme: '#3DC550'
-      # icon: solar:notebook-bookmark-bold-duotone
-      title: 专栏
-      url: /topic/
     - id: explore
-      theme: '#FA6400'
+      theme: "#FA6400"
       # icon: solar:planet-bold-duotone
       title: 探索
       url: /explore/
+    - id: topic
+      theme: "#3DC550"
+      # icon: solar:notebook-bookmark-bold-duotone
+      title: 专栏
+      url: /topic/
+
     - id: social
-      theme: '#F44336'
+      theme: "#F44336"
       icon: solar:chat-square-like-bold-duotone
       title: 社交
-      url: /friends/
+      url: /about/
 
 site_tree:
   home:
@@ -54,7 +55,7 @@ article:
   share: [wechat, weibo, email, link]
 
 footer:
-   content: | # 支持 Markdown 格式
+  content: | # 支持 Markdown 格式
     <center>
     </br>
     </br>
@@ -92,20 +93,17 @@ style:
     codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
 
 copycode:
- enable: true
- js: /js/plugins/copycode.js
- default_text: 'Copy' # 按钮显示文字
- success_text: 'Copied' # 复制成功信息
+  enable: true
+  js: /js/plugins/copycode.js
+  default_text: "Copy" # 按钮显示文字
+  success_text: "Copied" # 复制成功信息
 
 widgets:
-  #### 自动生成的页面 ####
-  # 主页
   home: search, welcome, recent, tagcloud, timeline # for home
 
 ######## Comments ########
 comments:
   service: twikoo
-
   # Twikoo
   # https://twikoo.js.org/
   twikoo:

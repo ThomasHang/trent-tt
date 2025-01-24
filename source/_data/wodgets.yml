@@ -1,6 +1,6 @@
 statement:
     layout: markdown
-    title: '<br>'
+    title: "<br>"
     content: |
         <hr>
         <center>
@@ -12,7 +12,16 @@ statement:
         </center>
 
 release_update:
-  layout: timeline
-  title: 主题更新
-  api: https://api.github.xaox.cc/repos/xaoxuu/hexo-theme-stellar/releases?per_page = 1
-  user: xaoxuu
+    layout: timeline
+    title: 主题更新
+    api: https://api.github.xaox.cc/repos/xaoxuu/hexo-theme-stellar/releases?per_page = 1
+    user: xaoxuu
+
+welcome:
+    layout: markdown
+    title: "🎉 欢迎 "
+    content: |
+        本站托管于 Github, 可能会出现加载缓慢或丢失问题，欢迎在评论区交流技术知识。
+        <br> <hr>
+        今日诗词:  <span id="jinrishici-sentence"> </span>
+        <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"> </script>
