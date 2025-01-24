@@ -78,6 +78,16 @@ footer:
     show_runtime();
     </script>
     <span id="runtime_span"> </span>
+  social:
+    - icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/25678f144c438.svg"/>'
+      url: /atom.xml
+    - icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/08a41b181ce68.svg"/>'
+      url: https://github.com/xaoxuu
+    - icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/cf1ae151f9e83.svg"/>'
+      url: https://music.163.com/#/user/home?id=63035382
+    - icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/942ebbf1a4b91.svg"/>'
+      url: /about/#comments
+  source: '[GitHub](https://github.com/xaoxuu/xaoxuu.github.io/)'
 
 style:
   text-align: justify
