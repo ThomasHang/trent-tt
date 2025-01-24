@@ -15,23 +15,23 @@ inject:
 
 logo:
   icon: /assets/icon.svg
-  title: Stellar
+  title: Trent
   subtitle: '每个人的独立博客 | Designed by xaoxuu'
 menubar:
   items: 
     - id: post
       theme: '#1BCDFC'
-      icon: solar:documents-bold-duotone
-      title: 博客
+      # icon: solar:documents-bold-duotone
+      title: blog
       url: /
     - id: topic
       theme: '#3DC550'
-      icon: solar:notebook-bookmark-bold-duotone
+      # icon: solar:notebook-bookmark-bold-duotone
       title: 专栏
       url: /topic/
     - id: explore
       theme: '#FA6400'
-      icon: solar:planet-bold-duotone
+      # icon: solar:planet-bold-duotone
       title: 探索
       url: /explore/
     - id: social
@@ -61,7 +61,7 @@ footer:
     <script type="text/javascript">
     function show_runtime() {
         window.setTimeout("show_runtime()", 1000);
-        X = new Date("10/20/2023 00:00:00 ");
+        X = new Date("10/20/2024 00:00:00 ");
         Y = new Date();
         T = (Y.getTime() - X.getTime());
         M = 24 * 60 * 60 * 1000;
@@ -96,4 +96,19 @@ copycode:
  js: /js/plugins/copycode.js
  default_text: 'Copy' # 按钮显示文字
  success_text: 'Copied' # 复制成功信息
+
+widgets:
+  #### 自动生成的页面 ####
+  # 主页
+  home: search, welcome, recent, tagcloud, timeline # for home
+
+######## Comments ########
+comments:
+  service: twikoo
+
+  # Twikoo
+  # https://twikoo.js.org/
+  twikoo:
+    js: https://gcore.jsdelivr.net/npm/twikoo@1.6.41/dist/twikoo.all.min.js # 建议锁定版本
+    envId: https://mytwikoo-rust.vercel.app/ # twikoo云函数,
 

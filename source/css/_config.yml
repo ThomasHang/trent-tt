@@ -1,0 +1,9 @@
+inject:
+  head:
+    # 自定义 css，静态文件后面加个 "?任意内容"，可以在每次更新之后用户自动重新请求，避免用户使用本地缓存
+    - <link rel="stylesheet" href="/css/my.css?1">
+  script:
+    # 自定义 js
+    - <script type="text/javascript" src="/js/script.js?1"> </script>
+    - <script src="/js/script.js?1"> </script>
+
