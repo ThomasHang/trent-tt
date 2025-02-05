@@ -98,6 +98,8 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: stellar
 
+wiki_dir: wiki
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
