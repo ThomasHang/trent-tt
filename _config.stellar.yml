@@ -16,30 +16,32 @@ inject:
 logo:
   icon: /assets/icon.jpg
   title: Trent
-  subtitle: "每个人的独立博客 | Designed by xaoxuu"
+  subtitle: "每个人的独立博客 "
+
+# 侧边栏配置
 menubar:
+  columns: 4 # 一行多少个
   items:
-    - id: post
-      theme: "#1BCDFC"
-      # icon: solar:documents-bold-duotone
-      title: blog
-      url: /
+    - id: post # 页面中高亮的 menu_id
+      theme: "#1BCDFC" # 高亮时的颜色，仅 svg 中 fill="currentColor" 时有效
+      icon: solar:documents-bold-duotone # 支持 svg/img 标签，可以定义在 icons.yml 文件中，也支持外部图片的 URL
+      title: 首页 # 标题
+      url: / # 跳转链接，支持相对路径和绝对路径
+    - id: wiki
+      theme: "#3DC550"
+      icon: solar:notebook-bookmark-bold-duotone
+      title: 文档
+      url: /wiki/
     - id: explore
       theme: "#FA6400"
-      # icon: solar:planet-bold-duotone
+      icon: solar:planet-bold-duotone
       title: 探索
-      url: /explore/
-    - id: topic
-      theme: "#3DC550"
-      # icon: solar:notebook-bookmark-bold-duotone
-      title: 专栏
-      url: /topic/
-
+      url: /explore/sites/收藏的站点.html
     - id: social
       theme: "#F44336"
       icon: solar:chat-square-like-bold-duotone
       title: 社交
-      url: /about/
+      url: /social/friends/
 
 site_tree:
   home:
@@ -79,15 +81,18 @@ footer:
     </script>
     <span id="runtime_span"> </span>
   social:
-    - icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/25678f144c438.svg"/>'
-      url: /atom.xml
-    - icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/08a41b181ce68.svg"/>'
-      url: https://github.com/xaoxuu
-    - icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/cf1ae151f9e83.svg"/>'
-      url: https://music.163.com/#/user/home?id=63035382
-    - icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/942ebbf1a4b91.svg"/>'
-      url: /about/#comments
-  source: '[GitHub](https://github.com/xaoxuu/xaoxuu.github.io/)'
+    Github:
+      icon: <img src="/assets/footer/github.svg" alt="github" />
+      url: https://github.com/codepzj
+      # - icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/25678f144c438.svg"/>'
+      #   url: /atom.xml
+      # - icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/08a41b181ce68.svg"/>'
+      #   url: https://github.com/xaoxuu
+      # - icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/cf1ae151f9e83.svg"/>'
+      #   url: https://music.163.com/#/user/home?id=63035382
+      # - icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/942ebbf1a4b91.svg"/>'
+      #   url: /about/#comments
+  source: "[GitHub](https://github.com/xaoxuu/xaoxuu.github.io/)"
 
 style:
   text-align: justify
