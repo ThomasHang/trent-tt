@@ -1,17 +1,20 @@
 ---
 title: react 知识体系
-tags: [react]
-categories: [技术分享]
-permalink: posts/23.html
+tags:
+  - react
+categories:
+  - 技术分享
+permalink: posts/react/01.html
 poster:
   topic: null
   headline: react教程
   caption: null
   color: null
-date: 2024-11-02 23:51:59
-updated: 2024-11-02 23:51:59
-topic: git
+topic: react
 excerpt: 本教程介绍了一些git的基本命令，包括版本控制、提交、回退、合并等。
+abbrlink: 7d6c6279
+date: 2025-02-06 13:26:59
+updated: 2025-02-06 13:29:59
 references:
 ---
 
