@@ -1,5 +1,5 @@
 name: react教程 # 在面包屑导航上会显示较短的名字
 title: react教程 # 在列表页会显示完整的专栏标题
 description: react - 理解运用react框架
-icon: /assets/icons/git.svg
+icon: /assets/icons/react.svg
 order_by: date
